@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Iam Studio Test</title>
+	</head>
+	<body>
+		<div style="padding: 2rem; display: flex; gap: 1rem; flex-wrap: wrap">
+			<div style="padding: 1rem 2rem; border: solid 1px gray">
+				<h1><strong>a.</strong></h1>
+				<p>
+					Llene un arreglo de diez posiciones con los primeros números
+					pares iniciando con el 2 y lo imprima.
+				</p>
+				<button onclick="firstQuestion()">PRINT</button>
+			</div>
+
+			<div style="padding: 1rem 2rem; border: solid 1px gray">
+				<h1><strong>b.</strong></h1>
+				<p>
+					Llene una matriz de 5 columnas y 5 filas con las coordenadas
+					de cada celda y la imprima.
+				</p>
+				<button onclick="secondQuestion()">PRINT</button>
+			</div>
+
+			<div style="padding: 1rem 2rem; border: solid 1px gray">
+				<h1><strong>c.</strong></h1>
+				<p>
+					Pida al usuario tres números entre 1 y 10 y los almacene en
+					un arreglo para luego llenar una matriz de 10 columnas y 3
+					filas de tal forma que cada número en el arreglo corresponda
+					al número de columnas llenas con el caracter ‘*’ y luego lo
+					imprima.
+				</p>
+				<form onsubmit="thirdQuestion(event)">
+					<input
+						type="number"
+						id="prompt"
+						name="prompt"
+						maxlength="3"
+					/>
+					<button type="submit">PRINT</button>
+				</form>
+			</div>
+		</div>
+		<script src="./src/js/main.js"></script>
+	</body>
+</html>
