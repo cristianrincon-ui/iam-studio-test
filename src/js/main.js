@@ -4,7 +4,7 @@ const firstQuestion = () => {
 	// Create empty array
 	const arr = [];
 	// Push until complete the limit with even numbers
-	for (var i = 0; i <= limit; i += 2) {
+	for (var i = 2; i <= limit; i += 2) {
 		arr.push(i);
 	}
 	console.log(arr);
